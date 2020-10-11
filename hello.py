@@ -1,7 +1,7 @@
-import random
-
 print("\n")
 
-print(random.randrange(1, 10))
+#casting from a string literal to an int
+x = int("7")
+print(x)
 
 print("\n")
