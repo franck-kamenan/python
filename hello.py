@@ -1,62 +1,94 @@
 print("\n")
 
-#get character at position 1
+#STRING METHODS
+
 x = "Bonjour, salut!"
-print(x[1])
+print(x.capitalize())
 
-#negative indexing
-print(x[-5])
+print(x.casefold())
 
-#slicing
-print(x[3:7])
+#center()
 
-#negative slicing
-print(x[-4:-1])
+print(x.count("o"))
 
-#length
-print(len(x))
+print(x.encode())
 
-#strip() method
-print(x.strip())
+print(x.endswith("!"))
 
-#lower() method
+print(x.expandtabs())
+
+print(x.find("o"))
+
+print(x.format())
+
+#format_map()
+
+print(x.index("r"))
+
+print(x.isalnum())
+
+print(x.isalpha())
+
+print(x.isdecimal())
+
+print(x.isdigit())
+
+print(x.isidentifier())
+
+print(x.islower())
+
+print(x.isnumeric())
+
+print(x.isprintable())
+
+print(x.isspace())
+
+print(x.istitle())
+
+print(x.isupper())
+
+#join()
+
+#ljust()
+
 print(x.lower())
 
-#upper() method
+print(x.lstrip())
+
+#maketrans())
+
+#partition()
+
+print(x.replace("jour", "ne nuit"))
+
+print(x.rfind("o"))
+
+print(x.rindex("o"))
+
+#rjust()
+
+#rpartition()
+
+print(x.rsplit())
+
+print(x.rstrip())
+
+print(x.split())
+
+print(x.splitlines())
+
+print(x.startswith("B"))
+
+print(x.strip())
+
+print(x.swapcase())
+
+print(x.title())
+
+#translate()
+
 print(x.upper())
 
-#replace() method
-print(x.replace("Bon", "Mal"))
-
-#split() method
-print(x.split(","))
-
-#in
-y = "onjo" in x
-print(y)
-
-#not in
-y = "onjo" not in x
-print(y)
-
-#concatenation
-z = "Bye!"
-print(x + " " + z)
-
-#format() method
-age = 36
-txt = "My name is John and I am {} years old."
-print(txt.format(age))
-numberOfCars = 2
-numberOfSeats = 3
-price = 400
-myorder = "I want {} cars with {} seats at {} dollars."
-print(myorder.format(numberOfCars, numberOfSeats, price))
-#with index numbers
-expensive = "{2} dollars is too much for {1} seats."
-print(expensive.format(numberOfCars, numberOfSeats, price))
-
-#escape character
-print("We are the so-called \"Vikings\" from the north.")
+#zfill()
 
 print("\n")
