@@ -1,94 +1,45 @@
 print("\n")
 
-#STRING METHODS
+#BOOLEANS
 
-x = "Bonjour, salut!"
-print(x.capitalize())
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+print("\n")
 
-print(x.casefold())
+a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is NOT greater than a")
 
-#center()
+print("\n")
+#bool() method
+print(bool("Hello"))
+print(bool(15))
+print(bool(True))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+print(bool(0))
+print(bool(None))
+print(bool(False))
 
-print(x.count("o"))
+print("\n")
+def myFunction():
+    return True
 
-print(x.encode())
+print(myFunction())
 
-print(x.endswith("!"))
+if myFunction():
+    print("YES!")
+else:
+    print("NO!")   
 
-print(x.expandtabs())
-
-print(x.find("o"))
-
-print(x.format())
-
-#format_map()
-
-print(x.index("r"))
-
-print(x.isalnum())
-
-print(x.isalpha())
-
-print(x.isdecimal())
-
-print(x.isdigit())
-
-print(x.isidentifier())
-
-print(x.islower())
-
-print(x.isnumeric())
-
-print(x.isprintable())
-
-print(x.isspace())
-
-print(x.istitle())
-
-print(x.isupper())
-
-#join()
-
-#ljust()
-
-print(x.lower())
-
-print(x.lstrip())
-
-#maketrans())
-
-#partition()
-
-print(x.replace("jour", "ne nuit"))
-
-print(x.rfind("o"))
-
-print(x.rindex("o"))
-
-#rjust()
-
-#rpartition()
-
-print(x.rsplit())
-
-print(x.rstrip())
-
-print(x.split())
-
-print(x.splitlines())
-
-print(x.startswith("B"))
-
-print(x.strip())
-
-print(x.swapcase())
-
-print(x.title())
-
-#translate()
-
-print(x.upper())
-
-#zfill()
+print("\n")
+#isinstance() method
+print(isinstance(a, int))     
 
 print("\n")
