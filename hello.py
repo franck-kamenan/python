@@ -1,5 +1,7 @@
 print("\n")
-x = 5
-w = 10
-print(w + x)
+x = "awesome"
+def myfunc():
+    print("I am " + x)
+
+myfunc()
 print("\n")
