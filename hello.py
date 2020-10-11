@@ -1,5 +1,6 @@
 print("\n")
-#variables can't start with a number and they are case-sensitive
-myvar = "John"
-print(myvar)
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
 print("\n")
