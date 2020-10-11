@@ -1,8 +1,14 @@
 print("\n")
 
 #casting from a float and int to a string
-x = str(4.2)
-y = str(7)
+x = """Bonjour
+ Comment ça va?
+ Cordialement"""
+
+y = '''Bonjour
+ Comment ça va?
+ Cordialement'''
+
 print(x)
 print(y)
 
