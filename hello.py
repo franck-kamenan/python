@@ -1,12 +1,11 @@
 print("\n")
 
-x = str ("awesome")
+x, y, z = 35e3, 12E4, -8.7e2
 print(type(x))
-x = int (20)
-print(type(x))
-x = float (20.5)
-print(type(x))
-x = complex (1j)
-print(type(x))
-#etc...
+print(x)
+print(type(y))
+print(y)
+print(type(z))
+print(z)
+
 print("\n")
