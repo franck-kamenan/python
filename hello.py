@@ -1,8 +1,7 @@
 print("\n")
-x = 5
+x = "John"
 print(x)
 print("\n")
-#comment
-x = "Bye"
+x = 'Rambo'
 print(x)
 print("\n")
