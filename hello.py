@@ -1,6 +1,7 @@
 print("\n")
-x = y = z = "Orange"
-print(x)
-print(y)
-print(z)
+x = "awesome"
+print("Python is " + x)
+print("\n")
+w = "Python is "
+print(w + x)
 print("\n")
