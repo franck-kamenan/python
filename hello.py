@@ -1,7 +1,7 @@
 print("\n")
 
-#casting from a string literal to an int
-x = int("7")
+#casting from a string literal to a float
+x = float("4.2")
 print(x)
 
 print("\n")
