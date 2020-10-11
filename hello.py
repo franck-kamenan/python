@@ -1,7 +1,5 @@
 print("\n")
-x = "John"
-print(x)
-print("\n")
-x = 'Rambo'
-print(x)
+#variables can't start with a number and they are case-sensitive
+myvar = "John"
+print(myvar)
 print("\n")
