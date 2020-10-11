@@ -1,7 +1,5 @@
 print("\n")
-x = "awesome"
-print("Python is " + x)
-print("\n")
-w = "Python is "
+x = 5
+w = 10
 print(w + x)
 print("\n")
